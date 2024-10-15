@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  background-color: rgb(253, 243, 251);
+}
+
+table {
+  margin-bottom: 30px;
+}
+
+#productTable {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#productTable td,
+#productTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#productTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #e929df;
+  color: white;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #e03aca;
+  background-color: #dbfcf1;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #e929df;
+  color: white;
+}
